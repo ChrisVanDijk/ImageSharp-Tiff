@@ -1,13 +1,17 @@
-﻿{
+{
   "version": "1.0.0-*",
   "buildOptions": {
     "emitEntryPoint": true
   },
 
   "dependencies": {
+    "ImageSharp": "1.0.0-alpha2-00090",
+    "ImageSharp.Formats.Png": "1.0.0-alpha2-00086",
+    "ImageSharp.Formats.Tiff": "1.0.0-*",
+    "ImageSharp.Processing": "1.0.0-alpha2-00078",
     "Microsoft.NETCore.App": {
-      "type": "platform",
-      "version": "1.0.1"
+      "version": "1.1.0",
+      "type": "platform"
     }
   },
 

@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ImageSharpTiff", "src\ImageSharpTiff\ImageSharpTiff.xproj", "{00222D63-6C60-4639-B118-B0B23D8CF9E2}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ImageSharp.Formats.Tiff", "src\ImageSharp.Formats.Tiff\ImageSharp.Formats.Tiff.xproj", "{F1140D9A-3D0C-4CEF-973C-09334634B16C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{00222D63-6C60-4639-B118-B0B23D8CF9E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00222D63-6C60-4639-B118-B0B23D8CF9E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00222D63-6C60-4639-B118-B0B23D8CF9E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1140D9A-3D0C-4CEF-973C-09334634B16C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1140D9A-3D0C-4CEF-973C-09334634B16C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1140D9A-3D0C-4CEF-973C-09334634B16C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1140D9A-3D0C-4CEF-973C-09334634B16C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{00222D63-6C60-4639-B118-B0B23D8CF9E2} = {EB12B3F6-4BBE-4ECB-9EDA-685A6A38C617}
+		{F1140D9A-3D0C-4CEF-973C-09334634B16C} = {EB12B3F6-4BBE-4ECB-9EDA-685A6A38C617}
 	EndGlobalSection
 EndGlobal
